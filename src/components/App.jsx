@@ -1,11 +1,18 @@
 import '../styles/App.css'
+import General from './General'
+import Education from './Education'
+import Work from './Work'
 
-function App() {
-  return (
-    <>
-      <p>Empty so far!</p>
-    </>
-  )
+const App = () => {
+    return (
+        <>
+            <div id='container'>
+                <General />
+                <Education />
+                <Work />
+            </div>
+        </>
+    )
 }
 
 export default App
