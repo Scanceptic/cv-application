@@ -3,7 +3,9 @@
 function Work() {
   return (
     <>
-      <p>Work Section is Empty so far!</p>
+      <div className="section">
+        <h2>Work Section is Empty so far!</h2>
+      </div>
     </>
   )
 }

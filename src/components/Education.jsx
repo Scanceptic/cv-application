@@ -3,7 +3,9 @@
 function Education() {
   return (
     <>
-      <p>Education Section is Empty so far!</p>
+      <div className="section">
+        <h2>Education Section is Empty so far!</h2>
+      </div>
     </>
   )
 }
